@@ -1,0 +1,521 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vw;
+    width: 100vw;
+
+}
+.navbar{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header{
+    padding: 10px;
+    background-color: black;
+    color: rgb(204, 204, 204);
+    list-style: none;
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: space-around !important;
+
+}
+.whiteLogo{
+    height: 18px;
+    width: 35px;
+    margin: 0;
+    padding: 0;
+    /* margin-left: 30px; */
+    /* margin: auto; */
+    /* border: 2px solid blue; */
+    
+
+}
+.searchLogo{
+    height: 16px;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+}
+.bagLogo{
+    
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+    margin-right: 35px;
+}
+
+nav li{
+    
+     font-size: 12px;
+     line-height: 30px;
+     margin-bottom: 0px;
+     padding-bottom: 0px;
+    /* border: 2px solid blue; */
+     
+}
+.header-list{
+    text-decoration: none;
+    color: lightgrey;
+    font-size: 12px;
+    /* border: 2px solid blue; */
+
+}
+.header-list:hover{
+    color: #66a3e0;
+
+}
+.section1{
+    color: white;
+    /* border: 2px solid blue; */
+    text-align: center;
+    width:100% ;
+    height: 610px;
+    background-repeat: no-repeat;
+    background-image: url(./images/hero_iphone14pro.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}  
+.section1-head1{
+    font-size: 38px;
+    padding-top:110px ;
+    font-weight: bold;
+    /* border: 2px solid blue; */
+
+
+}  
+.section2-head1{
+    font-size: 38px;
+    padding-top:60px ;
+    font-weight: bold;
+
+}
+.section1-head2{
+    font-size: 22px;
+    margin-top:10px ;
+
+}  
+.section1-links{
+
+   list-style: none;
+   text-align: center;
+   margin-top: 10px;
+   
+   
+   
+   /* border: 2px solid blue; */
+   
+}
+.section1-links li{
+    display: inline;
+    /* border: 2px solid blue; */
+}
+
+.section1-list1{
+    color: #66a3e0;
+    text-decoration: none;
+}
+.section1-list2{
+    margin-right: 40px;
+    margin-left: 30px;
+    color: #66a3e0;
+    text-decoration: none;
+    /* border: 2px solid blue; */
+}
+.section1-list1:hover,.section1-list2:hover{
+    
+    text-decoration: underline;
+}
+.section2{
+    color: black;
+    /* border: 2px solid blue; */
+    text-align: center;
+    width:100% ;
+    height: 560px;
+    background-repeat: no-repeat;
+    background-image: url(./images/hero_iphone14.jpg);
+    background-size: contain;
+    background-position: bottom;
+    border-bottom: 12px solid #FBFBFD;
+}
+.section3{
+    color: white;
+    /* border: 2px solid blue; */
+    text-align: center;
+    width:100% ;
+    height: 560px;
+    background-repeat: no-repeat;
+    background-image: url(./images/hero_apple_watch_series_8.jpg);
+    background-size: cover;
+    background-position-y: -145px;
+    
+}
+/* section 3 */
+.whiteLogo1{
+    height: 20px;
+    width: 30px;
+}
+.whiteLogo2{
+    height: 35px;
+    width: 65px;
+    /* border: 2px solid blue;  */
+    
+    
+    
+    
+}
+.section1-head3{
+    font-size: 35px;
+    letter-spacing: 2px;
+    padding-top:50px;
+    font-weight: bold;
+    /* margin-left: 0px;
+    padding-left: 0px; */
+    margin-right: 30px;
+    
+    /* border: 2px solid blue;  */
+
+    
+}
+.section1-red-head{
+        color: #8d171b;
+        font-weight: bolder;
+        margin-top: 5px;
+        letter-spacing: 5px;
+}
+/* section4 */
+
+.section4{
+    box-sizing: border-box;
+    width:100% ;
+    height: 470px;
+    background-repeat: no-repeat;
+    display: flex;
+    /* border: 12px solid #FBFBFD; */
+    
+}
+.section4-1stDiv{
+    
+    border: 12px solid #FBFBFD;
+    /* border: 12px solid blue; */
+    
+    text-align: center;
+    width:50% ;
+    height: 470px;
+    background-repeat: no-repeat;
+    background-image: url(./images/hero_watch_ultra.jpg);
+    background-size: 700px;
+    background-position: bottom;
+    background-position-x: -200px;
+    background-position-y: 220px;
+    
+}
+.section4-2stDiv{
+    
+    /* border: 12px solid blue; */
+    
+    border: 12px solid #FBFBFD;
+    border-left: 0px;
+    text-align: center;
+    width:50% ;
+    height: 470px;
+    background-repeat: no-repeat;
+    background-image: url(./images/promo-apple-fitness-plus-iphone.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.whiteLogo4{
+    height: 22px;
+    width: 40px;
+    /* border: 2px solid blue; */
+}
+.section4-head1{
+    font-size:25px;
+    padding-top:30px;
+    font-weight: bold;
+}
+.section4-head2{
+    font-size:10px;
+    font-weight: bold;
+    color: #e6621c;
+    padding-top:0px;
+}
+.sectio4-2nd-head1{
+    font-size:26px;
+    padding-top:30px;
+    font-weight: bold;
+
+}
+.section5-1stDiv{
+    color: white;
+    border: 12px solid #FBFBFD;
+    border-top: 0px;
+    /* border: 12px solid blue; */
+    text-align: center;
+    width:50% ;
+    height: 470px;
+    background-repeat: no-repeat;
+    background-image: url(./images/promo__sw58lbodkmqq_medium.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.section5-1stDiv-h1{
+    margin-top: 50px;
+    font-size: 27px;
+}
+.section5-1stDiv-p1{
+    margin-top: 10px;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.section5-list1{
+    text-decoration: none;
+    color: white;
+}
+.section5-list1:hover{
+    
+    text-decoration: underline;
+}
+.section5-2stDiv{
+    
+    border: 12px solid #FBFBFD;
+    /* border: 12px solid blue; */
+    border-left: 0px;
+    text-align: center;
+    width:50% ;
+    height: 470px;
+    background-repeat: no-repeat;
+    background-image: url(./images/hero__ecv967jz1y82_large.jpg);
+    background-size: 220px;
+    background-position: bottom;
+    background-position-y: 170px;
+    
+}
+.section5-head1{
+    margin-top: 60px;
+    font-size: 27px;
+    font-weight: bold;
+    
+}
+.section5-head2{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.section7-pic{
+    /* border: 2px solid blue; */
+    /* text-align: center; */
+    
+    
+    
+}
+.section7{
+    /* border: 2px solid blue; */
+    text-align: center;
+    width:100% ;
+    
+    
+}
+.section6-1stDiv{
+    color: white;
+    border: 12px solid #FBFBFD;
+    /* border: 12px solid blue; */
+    border-top: 0px;
+    text-align: center;
+    width:50% ;
+    height: 470px;
+    background-repeat: no-repeat;
+    background-image: url(./images/xoxo_promo__czow8gsh0gk2_small.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.section6-head1{
+    font-size:30px;
+    padding-top:50px;
+    font-weight: 800px ;
+
+}
+.section6-head2{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 250px;
+}
+.section6-head3{
+    font-size: 18px;
+}
+
+.section6-links{
+    margin-top: 10px;
+    list-style: none;
+    text-align: center;
+    color: white;
+    /* border: 2px solid blue; */
+    
+ }
+ .section6-links li{
+    display: inline;
+ }
+ .section6-list1{
+    color: white;
+    text-decoration: none;
+}
+.section6-list2{
+    margin-right: 40px;
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    /* border: 2px solid blue; */
+}
+.section6-list1:hover,.section6-list2:hover{
+    
+    text-decoration: underline;
+}
+.section6-2stDiv{
+
+    border: 12px solid #FBFBFD;
+    /* border: 2px solid blue; */
+    border-top: 0px;
+    border-left: 0px;
+    text-align: center;
+    width:50% ;
+    height: 470px;
+    background-repeat: no-repeat;
+    background-image: url(./images/tile__cauwwcyyn9hy_small.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.section6-2stDiv-head1{
+    font-size:30px;
+    padding-top:50px;
+    font-weight: 800px ;
+}
+.section6-2stDiv-head2{
+    font-size: large;
+    margin-bottom: 15px;
+}
+.section8{
+    background-color: #f5f5f7;
+    
+    /* border: 2px solid blue; */
+}
+.section8-div1{
+    /* overflow: none; */
+    /* border: 2px solid blue; */
+    padding: 20px;
+    
+    
+    
+
+}
+.section8-ul{
+   color: gray;
+   font-weight: bold;
+    list-style: none;
+    /* border: 2px solid blue; */
+    padding: 0px;
+    padding-bottom: 40px;
+    width: 95%;
+    font-size: 14px;
+    border-bottom: 1px solid grey;
+    
+    
+}
+
+.section8-div2{
+    width: 95%;
+    padding: 0;
+    margin-left: 20px;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    
+    font-size: medium;
+    
+    
+}
+
+.section8div1{
+    /* border: 2px solid blue; */
+    margin-left: 0;
+    
+   
+}
+.section8-div2-list1{
+    list-style: none;
+    
+    line-height: 35px;
+    /* border: 2px solid blue; */
+    margin: 0;
+    padding: 0;
+    
+}
+.section8-div2-list1 a{
+    text-decoration: none;
+    color: grey;
+}
+.section8-div2-list1 a:hover{
+    text-decoration: underline;
+}
+.section8-div2-list1+li{
+    font-weight: bold;
+}
+.section8div1-para{
+    font-size: small;
+    color: gray;
+    width: 95%;
+    flex-direction: row;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+.section8div1-para a{
+    color: #66a3e0;
+    text-decoration: none;
+}
+.section8div1-para a:hover{
+    text-decoration: underline;
+}
+.section9{
+    justify-content: center;
+}
+.lastdiv{
+    display: flex;
+    width: 95%;
+    position: relative;
+    justify-content: center;
+    font-size: small;
+    margin-left: 20px;
+    margin-top:10px ;
+    color: gray;
+    
+}
+.lastdiv-3rd{
+    position: absolute;
+    right: 0;
+}
+.lastdiv-1st{
+    position: absolute;
+    left: 0;
+}
+.lastdiv-2nd a{
+    text-decoration: none;
+    color: gray;
+    
+}
+.lastdiv-2nd a:hover{
+    text-decoration: underline;
+    
+    
+}
+.lastdiv-2nd{
+    margin-left: 40px;
+}
